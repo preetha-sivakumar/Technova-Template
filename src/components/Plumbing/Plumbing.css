@@ -1,0 +1,60 @@
+.par-text{
+    height:200px;
+    background-color:#16235e;
+    font-size:25px ;
+    color:#fff;
+    
+    font-weight: 200;
+}
+
+.par-text{
+    text-align: center;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../../assets/img1.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+  }
+  .parallax1 {
+    /* The image used */
+    
+    background-image: url("../../assets/img3.jpg");
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("../../assets/img4.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .work{
+    text-align: center;
+    color: #302bb5;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 100px 0 30px;
+  }

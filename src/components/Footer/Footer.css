@@ -1,0 +1,81 @@
+
+.footerbody{
+    display: flex;
+    /*justify-content: flex-end; */
+    /* align-items: center; */
+
+     flex-direction: column; 
+    min-height: 70vh;
+    background-color: #000000ff;
+    /* position: relative; */
+    width: 100%;
+    min-height: 300px;
+    padding-left: 15px;
+     /* padding: 3rem 1rem;  */
+} 
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: auto; */
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 6px;
+}
+/* .footcontainer {
+   max-width: 1140px;
+   /* margin: 0 auto; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+
+
+} */
+.frow{
+   /* display: flex; */
+   /* justify-content: space-between;
+   align-items: center; */
+  margin-left:0;
+  top:0;
+  padding-right: 30px;
+}
+.frow .footerlogo{
+    height: 60px;
+    width: auto;
+    margin-top: 20px;
+}
+.frow p{
+    color:white;
+    padding-left: 15px;
+}
+
+.frow .social{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.frow ul{
+    list-style: none;
+}
+
+.frow li{
+    padding-left: 100px;
+    color: white;
+    padding-top: 10px;
+}
+.frow h2{
+    color: white;
+    padding-top: 25px;
+    padding-left: 100px;
+}
+.frow .vertical{
+    width: 200px;
+    color: white;
+    margin-left: 100px;
+    
+}
+
+.frow .i{
+    width: 25px;
+    height: 25px;
+}

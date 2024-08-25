@@ -1,0 +1,139 @@
+.about-text{
+    text-align: center;
+    max-width: 800px;
+}
+
+.prod-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.prod{
+    width:100%;
+    min-height: 50vh;
+    background:  url('../../assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.containernav{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .banner2-container {
+    gap: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px; /* Adjust as needed */
+    /* padding-bottom: 30px; */
+  }
+  
+  .banner2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .banner2-left {
+    flex: 40%;
+    /* margin-left: 40px; */
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 40px; */
+    position: relative;
+   
+  }
+  .banner2-right{
+    flex: 50%;
+    /* margin-left: 40px; */
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 40px; */
+  }
+  
+  .banner2-left {
+    order: 1;
+  }
+  
+  .banner2-right {
+    order: 2;
+  }
+  
+  .servimg {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+  
+  .banner2.right .service-left {
+    order: 2;
+  }
+  
+  
+  .banner2.right .service-right {
+    order: 1;
+  }
+  
+  .banner2-container h3 {
+    
+    font-weight: 600;
+    font-weight: 16px;
+    color:  #302bb5;
+    max-width: 900px;
+
+    margin-bottom: 10px;
+  }
+  
+  .banner2-container h2 {
+    
+    font-size: 35px;
+    color:  #16235e;
+    margin: 10px 0;
+    max-width: 400px;
+
+    margin-bottom: 20px;
+  }
+  
+  .banner2-container p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+.banner2-container .btnserv{
+    
+    
+        background: #16235e;
+        color: #fff;
+        padding: 14px 25px;
+        font-size: 16px;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+      
+      
+}
+
+.banner2-container .btnserv img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+
+  /* .banner2-left img {
+    animation: slideInLeft 2s ease-in;
+  }
+   */

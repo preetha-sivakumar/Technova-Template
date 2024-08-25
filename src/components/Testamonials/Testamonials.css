@@ -1,0 +1,115 @@
+.test-container{
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background-color: black;  */
+    border-radius: 50px;
+    padding-bottom: 30px;   
+}
+.test{
+    text-align: center;
+    color: #302bb5;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 100px 0 30px;
+
+}
+.test h2{
+    font-size: 40px;
+    color: #16235e;
+    margin-top: 15px;
+    text-transform: none;
+    padding-bottom: 10px;
+}
+
+.testimonial-container{
+
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    
+}
+/* .testi{
+    margin: 100px 0 30px;
+    align-items: center;
+    justify-content: space-between;
+} */
+.testimonials{
+    margin: 40px auto;
+    padding: 30px 80px;
+    position: relative;
+    /* background-color: aqua; */
+    overflow: hidden;
+  
+}
+
+
+.next-btn, .back-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #16235e;
+}
+.back-btn
+{
+    right:auto;
+    left: 0;
+
+}
+.slider {
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    padding: 100px 10px 90px; */
+}
+
+.slider ul{
+    display: flex;
+    width: 250%;
+     overflow-x: hidden;  
+    transition: 0.5s;
+    transform: translateX(-40%);
+}
+.slider ul li{
+    list-style: none;
+    width: 50%;  
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+     /* flex: 1;  */
+
+}
+.slide{
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    padding: 40px;
+    border-radius: 10px;
+    color:#16235e;
+    line-height: 1.4;
+    /* background: #000; */
+    /* width: 60%; */
+    /* max-width: 800px; */
+
+}
+.slide img{
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 3px solid #16235e;
+
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.user-info h3{
+    color:#16235e;
+}

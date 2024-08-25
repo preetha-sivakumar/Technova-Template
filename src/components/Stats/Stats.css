@@ -1,0 +1,40 @@
+.stats-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: #16235e;
+    margin-left: 150px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: absolute;
+    top: 650px;
+    border-radius: 15px;
+    width: 1200px;
+  }
+  
+  .stat-item {
+    text-align: center;
+    margin: 0 40px;
+  }
+  
+  .stat-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .stat-description {
+    font-size: 30px;
+    color: #fff;
+  }
+  
+  .vertical-bar {
+    width: 5px;
+    height: 80px;
+    background-color: #fff;
+  }
+  
